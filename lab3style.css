@@ -8,6 +8,7 @@ h1 {
 h2 {
     font-size: x-large;
     text-align: center;
+    min-width: none;
 }
 
 /* Box Models */
@@ -20,6 +21,7 @@ section {
     padding-bottom: 5px;
     padding-left: 0px;
     padding-right: 0px;
+    height: auto;
 }
 
 /* Form color change */
@@ -30,10 +32,26 @@ form {
     border-color: black;
     border-radius: 4%;
     padding: 5px 0px 5px 0px;
+    display: inline-block;
+    max-width: fit-content;
+}
+
+/* Removes text area visibility */
+textarea {
+    display: none;
 }
 
 /* Section header color change */
 h3 {
     color: blue;
     text-decoration: underline;
+    width: auto;
+    position: sticky;
+    top: 10px;
+}
+
+/* List positioning */
+ul, li {
+    position: relative;
+    left: 10px;
 }
