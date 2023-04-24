@@ -1,3 +1,6 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&display=swap');
+
 /* Title styling */
 h1 {
     font-size: xx-large;
@@ -9,6 +12,11 @@ h2 {
     font-size: x-large;
     text-align: center;
     min-width: none;
+}
+
+/* Title and date font change */
+.heading {
+    font-family: 'Akshar', sans-serif;
 }
 
 /* Box Models */
@@ -47,7 +55,7 @@ textarea {
 
 /* Section header color change */
 h3 {
-    color: blue;
+    color: crimson;
     text-decoration: underline;
     width: auto;
     position: sticky;
@@ -55,13 +63,14 @@ h3 {
 }
 
 /* List positioning */
-ul, li, ol {
+ul,
+li,
+ol {
     position: relative;
     left: 10px;
     display: grid;
     row-gap: 10px;
     justify-content: space-between;
-
 }
 
 /* Link hover */
@@ -72,4 +81,39 @@ a:hover {
 /* While input is clicked */
 input:active {
     background-color: #00FFF0;
+}
+
+/* Highlights attendance */
+ul[target="attendance"] {
+    background-color: yellow;
+}
+
+/* Changes font of conclusion header */
+#Conclusion {
+    font-family: 'Akshar', sans-serif;
+}
+
+/* Bold items in p */
+p b {
+    color: blue;
+}
+
+/* Italicized items in p */
+p>i {
+    background-color: #9b2a94;
+}
+
+ol+h3 {
+    row-gap: 25px;
+}
+
+h2~details {
+    text-align: center;
+}
+
+img.picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
