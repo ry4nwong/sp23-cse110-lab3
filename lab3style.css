@@ -1,0 +1,10 @@
+/* Changes the title background to beige */
+h1 {
+    background-color: beige;
+    font-size: xx-large;
+}
+
+/* Date styling */
+h2 {
+    font-size: x-large;
+}
