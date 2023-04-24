@@ -1,13 +1,13 @@
 /* Title styling */
 h1 {
     font-size: xx-large;
-    margin: 20px;
+    text-align: center;
 }
 
 /* Date styling */
 h2 {
     font-size: x-large;
-    margin: 19px;
+    text-align: center;
 }
 
 /* Box Models */
@@ -30,4 +30,10 @@ form {
     border-color: black;
     border-radius: 4%;
     padding: 5px 0px 5px 0px;
+}
+
+/* Section header color change */
+h3 {
+    color: blue;
+    text-decoration: underline;
 }
